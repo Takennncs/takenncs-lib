@@ -9,12 +9,12 @@ ui_page 'html/index.html'
 
 client_scripts {
     'client/main.lua',
-    'client/events.lua',
-    'version_check.lua'
+    'client/events.lua'
 }
 
 server_scripts {
-    'server/main.lua'
+    'server/main.lua',
+    'version_check.lua'
 }
 
 files {
@@ -22,5 +22,6 @@ files {
     'html/styles.css',
     'html/script.js'
 }
+
 
 lua54 'yes'
