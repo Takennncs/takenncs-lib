@@ -10,7 +10,7 @@ CreateThread(function()
                 local latestVersion = text:match('(%d+%.%d+%.%d+)')
                 if latestVersion and latestVersion ~= currentVersion then
                     print(('^3[takenncs-lib]^7 New version available: %s (current: %s)'):format(latestVersion, currentVersion))
-                    print('^3[takenncs-lib]^7 Download: https://github.com/%s/releases/latest'):format(repo))
+                    print(('^3[takenncs-lib]^7 Download: https://github.com/%s/releases/latest'):format(repo))
                 else
                     print(('^2[takenncs-lib]^7 Version %s is up to date'):format(currentVersion))
                 end
